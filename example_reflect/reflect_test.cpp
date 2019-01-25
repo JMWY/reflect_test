@@ -313,7 +313,7 @@ public:
 };
 
 TEST_F(ReflectionTest, basic_type_test) {
-    std::string* p_sval = new std::string("99.999美团点评2600万个poi");
+    std::string* p_sval = new std::string("99.999这里有2600万个poi");
     std::cout << "alloc memory:" << p_sval << std::endl;
     std::vector<Field> fields(4);
     fields[0].type = INT32;
